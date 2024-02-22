@@ -1,0 +1,28 @@
+PostController
+-   Get All Post - Done. http://localhost:3000/api/posts/all
+-   Get PostByID - Done. http://localhost:3000/api/posts/:id
+-   Get PostByUser - Done. http://localhost:3000/api/posts/
+-   Add a post - Done. http://localhost:3000/api/posts/
+-   Update a post - Done. - http://localhost:3000/api/posts/:id
+-   Delete a Post - Done. - http://localhost:3000/api/posts/:id
+-   Get PostsByCaption - Done. http://localhost:3000/api/posts/filter/:caption
+-   Save As Draft - Done. - http://localhost:3000/api/posts/draft/:id
+-   Archive a Post - Done. - http://localhost:3000/api/posts/archive/:id
+-   Unarchive a Post - Done. - http://localhost:3000/api/posts/unarchive/:id
+-   Sort by date - Done. - http://localhost:3000/api/posts/sort/date
+
+
+CommentController
+-   Get All Comments For Post. - Done - http://localhost:3000/api/comments/:id
+-   Add comments To Post - Done. - http://localhost:3000/api/comments/:postId
+-   Update comments - Done. - http://localhost:3000/api/comments/:commentId
+-   Delete comments. - Done. - http://localhost:3000/api/comments/:commentId
+
+LikeController
+-   Get All Likes - Done. - http://localhost:3000/api/likes/:postId
+-   Toggle Like - Done. - http://localhost:3000/api/likes/toggle/:postId
+-   Sort by Likes - Done. - http://localhost:3000/api/likes/sort/likes
+
+UserController
+- Signup - Email, Name, Password - Done.
+- Signin - (Email, Password) - Done.
